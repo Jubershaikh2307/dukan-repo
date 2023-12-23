@@ -1,0 +1,46 @@
+.main-overview {
+  height: 88%;
+  margin: 30px;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.bottomContainer {
+  margin-top: 50px;
+}
+
+.tableContainer {
+  height: 260px;
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+thead {
+  background-color: #dddddd;
+}
